@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://w.nep.me/"/>
-  <updated>2019-12-16T06:56:34.890Z</updated>
-  <id>http://w.nep.me/</id>
+  <link href="http://wiki.nepnep.me/"/>
+  <updated>2019-12-17T11:41:02.514Z</updated>
+  <id>http://wiki.nepnep.me/</id>
   
   <author>
     <name>Aroes</name>
@@ -18,12 +18,12 @@
   
   <entry>
     <title>Ubuntu 刷新 DNS 缓存</title>
-    <link href="http://w.nep.me/Note/Solved/Ubuntu%20%E5%88%B7%E6%96%B0%20DNS%20%E7%BC%93%E5%AD%98/"/>
-    <id>http://w.nep.me/Note/Solved/Ubuntu%20%E5%88%B7%E6%96%B0%20DNS%20%E7%BC%93%E5%AD%98/</id>
+    <link href="http://wiki.nepnep.me/Note/Solved/Ubuntu%20%E5%88%B7%E6%96%B0%20DNS%20%E7%BC%93%E5%AD%98/"/>
+    <id>http://wiki.nepnep.me/Note/Solved/Ubuntu%20%E5%88%B7%E6%96%B0%20DNS%20%E7%BC%93%E5%AD%98/</id>
     <published>2019-12-16T06:50:24.000Z</published>
-    <updated>2019-12-16T06:56:34.890Z</updated>
+    <updated>2019-12-17T11:41:02.514Z</updated>
     
-    <content type="html"><![CDATA[<ol><li><p>使用 systemd</p> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line"># 清除缓存</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">2</span></pre></td><td class="code"><pre><span class="line">sudo systemd-resolve --flush-caches</span></pre></td></tr></table></figure> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line"># 查看缓存大小</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">2</span></pre></td><td class="code"><pre><span class="line">sudo systemd-resolve --statistics</span></pre></td></tr></table></figure></li><li><p>使用 dns-clean</p> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">使用systemd-resolve刷新DNS-Cache</span></pre></td></tr></table></figure></li></ol>]]></content>
+    <content type="html"><![CDATA[<ol><li><p>使用 systemd</p> <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line"><span class="comment"># 清除缓存</span></span></pre></td></tr><tr><td class="gutter"><pre><span class="line">2</span></pre></td><td class="code"><pre><span class="line">sudo systemd-resolve --flush-caches</span></pre></td></tr><tr><td class="gutter"><pre><span class="line">3</span></pre></td><td class="code"><pre><span class="line"></span></pre></td></tr><tr><td class="gutter"><pre><span class="line">4</span></pre></td><td class="code"><pre><span class="line"><span class="comment"># 查看 DNS 缓存大小</span></span></pre></td></tr><tr><td class="gutter"><pre><span class="line">5</span></pre></td><td class="code"><pre><span class="line">sudo systemd-resolve --statistics</span></pre></td></tr></table></figure></li><li><p>使用 dns-clean</p> <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">sudo /etc/init.d/dns-clean start</span></pre></td></tr></table></figure></li></ol>]]></content>
     
     <summary type="html">
     
@@ -31,23 +31,23 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;使用 systemd&lt;/p&gt;
- &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td cla
+ &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td clas
       
     
     </summary>
     
     
-      <category term="Note" scheme="http://w.nep.me/categories/Note/"/>
+      <category term="Note" scheme="http://wiki.nepnep.me/categories/Note/"/>
     
-      <category term="Solved" scheme="http://w.nep.me/categories/Note/Solved/"/>
+      <category term="Solved" scheme="http://wiki.nepnep.me/categories/Note/Solved/"/>
     
     
   </entry>
   
   <entry>
     <title>Everything 索引不全</title>
-    <link href="http://w.nep.me/Note/Solved/Everything%20%E7%B4%A2%E5%BC%95%E4%B8%8D%E5%85%A8/"/>
-    <id>http://w.nep.me/Note/Solved/Everything%20%E7%B4%A2%E5%BC%95%E4%B8%8D%E5%85%A8/</id>
+    <link href="http://wiki.nepnep.me/Note/Solved/Everything%20%E7%B4%A2%E5%BC%95%E4%B8%8D%E5%85%A8/"/>
+    <id>http://wiki.nepnep.me/Note/Solved/Everything%20%E7%B4%A2%E5%BC%95%E4%B8%8D%E5%85%A8/</id>
     <published>2019-12-05T05:58:11.000Z</published>
     <updated>2019-12-05T06:00:39.996Z</updated>
     
@@ -64,17 +64,17 @@
     </summary>
     
     
-      <category term="Note" scheme="http://w.nep.me/categories/Note/"/>
+      <category term="Note" scheme="http://wiki.nepnep.me/categories/Note/"/>
     
-      <category term="Solved" scheme="http://w.nep.me/categories/Note/Solved/"/>
+      <category term="Solved" scheme="http://wiki.nepnep.me/categories/Note/Solved/"/>
     
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://w.nep.me/hello-world/"/>
-    <id>http://w.nep.me/hello-world/</id>
+    <link href="http://wiki.nepnep.me/hello-world/"/>
+    <id>http://wiki.nepnep.me/hello-world/</id>
     <published>2019-12-04T09:09:57.947Z</published>
     <updated>2019-12-04T09:09:57.947Z</updated>
     
