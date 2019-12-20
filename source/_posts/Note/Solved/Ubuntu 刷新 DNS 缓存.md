@@ -6,18 +6,16 @@ categories:
 ---
 
 1. 使用 systemd
-    ```
+    ```bash 
     # 清除缓存
     sudo systemd-resolve --flush-caches
-    ```
     
-    ```
-    # 查看缓存大小
+    # 查看 DNS 缓存大小
     sudo systemd-resolve --statistics
     ```
 
 2. 使用 dns-clean
-    ```
-    使用systemd-resolve刷新DNS-Cache
+    ```bash
+    sudo /etc/init.d/dns-clean start
     ```
 
